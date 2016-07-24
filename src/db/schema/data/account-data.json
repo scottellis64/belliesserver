@@ -1,0 +1,24 @@
+{
+    "account" : [
+        {
+            "firstName" : "Scott",
+            "lastName" : "Ellis",
+            "gender" : "m",
+            "month" : "9",
+            "day" : "30",
+            "year" : "1964",
+            "email" : "jackett_dad@yahoo.com",
+            "password" : "sellis"
+        },
+        {
+            "firstName" : "Beth",
+            "lastName" : "Ellis",
+            "gender" : "f",
+            "month" : "1",
+            "day" : "8",
+            "year" : "1968",
+            "email" : "babibelis@yahoo.com",
+            "password" : "moopoo"
+        }
+    ]
+}

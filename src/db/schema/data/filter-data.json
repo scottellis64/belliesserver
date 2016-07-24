@@ -1,0 +1,99 @@
+{
+    "filter" : [
+        {
+            "id" : "bracelets",
+            "label" : "Bracelets",
+            "group" : "itemType"
+        },
+        {
+            "id" : "necklaces",
+            "label" : "Necklaces",
+            "group" : "itemType"
+        },
+        {
+            "id" : "earrings",
+            "label" : "Earrings",
+            "group" : "itemType"
+        },
+        {
+            "id" : "tassels",
+            "label" : "Tassels",
+            "group" : "itemType"
+        },
+        {
+            "id" : "gold",
+            "label" : "Gold",
+            "group" : "material"
+        },
+        {
+            "id" : "silver",
+            "label" : "Silver",
+            "group" : "material"
+        },
+        {
+            "id" : "glass",
+            "label" : "Glass",
+            "group" : "material"
+        },
+        {
+            "id" : "gemstone",
+            "label" : "Gem Stone",
+            "group" : "material"
+        },
+        {
+            "id" : "rosegold",
+            "label" : "Rose Gold",
+            "group" : "material"
+        },
+        {
+            "id" : "antiquegold",
+            "label" : "Antique Gold",
+            "group" : "material"
+        },
+        {
+            "id" : "brass",
+            "label" : "Brass",
+            "group" : "material"
+        },
+        {
+            "id" : "leatherchording",
+            "label" : "Leather Chording",
+            "group" : "material"
+        },
+        {
+            "id" : "pricerange1",
+            "label" : "$5 to $9.99",
+            "group" : "pricerange"
+        },
+        {
+            "id" : "pricerange2",
+            "label" : "$10 to $19.99",
+            "group" : "pricerange"
+        },
+        {
+            "id" : "pricerange3",
+            "label" : "$20 to $29.99",
+            "group" : "pricerange"
+        },
+        {
+            "id" : "pricerange4",
+            "label" : "$30 >",
+            "group" : "pricerange"
+        },
+        {
+            "id" : "knotted",
+            "label" : "Knotted",
+            "group" : "style"
+        },
+        {
+            "id" : "vintage",
+            "label" : "Vintage",
+            "group" : "style"
+        },
+        {
+            "id" : "macrame",
+            "label" : "Macrame",
+            "group" : "style"
+        }
+    ]
+}
