@@ -1,17 +1,26 @@
-const mongoIp = process.env.IP || "localhost";
 const mode = process.env.NODE_ENV ? process.env.NODE_ENV : "dev";
 const isProduction = mode == "production";
 
 const restServer = "localhost";
 const restPort = "8097";
 
+const dbServer = process.env.OPENSHIFT_MONGODB_DB_HOST ? process.env.OPENSHIFT_MONGODB_DB_HOST : "localhost";
+
+//if(process.env.OPENSHIFT_MONGODB_DB_PASSWORD){
+//    connection_string = process.env.OPENSHIFT_MONGODB_DB_USERNAME + ":" +
+//        process.env.OPENSHIFT_MONGODB_DB_PASSWORD + "@" +
+//        process.env.OPENSHIFT_MONGODB_DB_HOST + ':' +
+//        process.env.OPENSHIFT_MONGODB_DB_PORT + '/' +
+//        process.env.OPENSHIFT_APP_NAME;
+//}
+
 import BelliesRestApi from "../api/BelliesRestApi";
 import BelliesRestServerFactory from "../api/BelliesRestServerFactory";
 
 const serverconfig = {
     db: {
-        dbName : "bellies",
-        server: "localhost",
+        dbName : "belliesserver",
+        server : dbServer,
 
         loadData : true,
 
@@ -59,10 +68,6 @@ const serverconfig = {
                     description : String
                 }
             }
-        },
-
-        api : {
-
         }
     },
 
