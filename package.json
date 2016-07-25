@@ -5,7 +5,7 @@
     "scripts" : {
         "start" : "node src/rest/index.js",
         "start-prod" : "NODE_ENV=production npm start",
-        "mongod" : "mongod --dbpath=data --nojournal",
+        "mongod" : "mongod --dbpath=data --nojournal --config /etc/mongodb.conf --smallFiles",
         "test" : "./node_modules/mocha/bin/mocha --compilers js:babel-register --require babel-polyfill"
     },
     "author" : "J. Scott Ellis",
