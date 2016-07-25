@@ -1,7 +1,7 @@
 Creds
 -------
 
-git clone ssh://57954e560c1e66f6bc00019e@belliesserver-jscottellis64.rhcloud.com/~/git/belliesserver.git/
+git clone ssh://579649872d5271f369000217@belliesserver-jscottellis64.rhcloud.com/~/git/belliesserver.git/
 cd belliesserver/
 
 MongoDB 2.4 database added.  Please make note of these credentials:
