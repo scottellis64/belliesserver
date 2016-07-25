@@ -15,4 +15,5 @@ Connection URL: mongodb://$OPENSHIFT_MONGODB_DB_HOST:$OPENSHIFT_MONGODB_DB_PORT/
 Info
 -------
 
-Upgraded to Bronze Plan because I exceeded my disk quota
+Upgraded to Bronze Plan because I exceeded my disk quota.
+Added 1Gb online for $1/mo.
