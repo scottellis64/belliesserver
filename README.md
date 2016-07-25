@@ -17,3 +17,10 @@ Info
 
 Upgraded to Bronze Plan because I exceeded my disk quota.
 Added 1Gb online for $1/mo.
+
+OpenShift Commands
+-------
+
+Checking disk usage: du -h * | sort -rh | head -50
+docs: https://developers.openshift.com/managing-your-applications/filesystem.html#disk-space
+
